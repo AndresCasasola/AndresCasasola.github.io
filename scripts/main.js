@@ -1,6 +1,6 @@
 
-const title = document.querySelector('h1');
-title.textContent = 'Hola que tal';
+// const title = document.querySelector('h1');
+// title.textContent = 'Hola que tal';
 
 
 // document.querySelector('html').onclick = function()
@@ -13,8 +13,6 @@ let boton = document.querySelector('button');
 boton.onclick = function() {
     estableceNombreUsuario();
 }
-
-fartscroll(200);
 
 // Functions:
 
@@ -29,4 +27,9 @@ function estableceNombreUsuario()
     let miNombre = prompt('Por favor, ingresa tu nombre.');
     localStorage.setItem('nombre', miNombre);
     title.textContent = miNombre;
+}
+
+function fartbutton()
+{
+    
 }
