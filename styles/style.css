@@ -1,0 +1,104 @@
+
+/* Full HTML document format */
+html 
+{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin: 50px;
+    border: 10px;
+    /* background-color: rgb(2, 71, 94); */
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");}
+
+/* Body */
+Body
+{
+    /* background-image: url("./images/photo.jpg"); */
+}
+
+/* Header1 */
+h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+ /* Paragraphs */
+p
+{
+    margin: 50px;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+/* Navigation bar */
+ul 
+{
+    /* position: fixed; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    /* Sticky effect */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+li 
+{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+    background-color: #111;
+}
+
+.active 
+{
+    background-color: #4CAF50;
+}
+
+
+/* My classes */
+
+div.background
+{
+    background: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png")  ;
+    /* border: 2px solid black; */
+    opacity: 0.8;
+}
+
+div.transbox
+{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 1;
+}
+
+div.transbox_grey
+{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 0.95;
+}
