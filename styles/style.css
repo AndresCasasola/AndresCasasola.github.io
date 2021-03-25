@@ -7,7 +7,10 @@ html
     margin: 50px;
     border: 10px;
     /* background-color: rgb(2, 71, 94); */
-    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");}
+    /* background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png"); */
+    /* background-image: url(https://i.pinimg.com/originals/03/73/fb/0373fbc68b8566a8ad32fa0ed21b4f5d.jpg); */
+    background-image: url(https://i.pinimg.com/736x/34/9b/82/349b82d378019dae6befb4a1884957b3.jpg);
+}
 
 /* Body */
 Body
